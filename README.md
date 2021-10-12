@@ -98,7 +98,7 @@ Ninja 仅支持 qinglong 2.8.2+
    **进容器内执行以下命令**
 
    ```bash
-   git clone https://github.com/Waikkii/waikiki_ninja.git /ql/ninja
+   git clone https://github.com/annkoxx/Waikiki_ninja.git /ql/ninja
    cd /ql/ninja/backend
    pnpm install
    cp .env.example .env # 如有需要, 修改.env
@@ -113,6 +113,7 @@ Ninja 仅支持 qinglong 2.8.2+
    git checkout .
    git pull
    pnpm install
+   npm install pm2 -g
    pm2 start
    cp sendNotify.js /ql/scripts/sendNotify.js
    ```
